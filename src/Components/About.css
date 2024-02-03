@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 217, 224);
+  margin: 0;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.AboutP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Take remaining space vertically */
+}
+
+.ab {
+  margin-top: 250px;
+  font-size: 140px;
+}
